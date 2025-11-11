@@ -1,29 +1,29 @@
 {
-  "name": "unique-url",
-  "version": "0.0.0",
-  "type": "module",
-  "main": "./dist/unique-url.umd.cjs",
-  "module": "./dist/unique-url.js",
-  "types": "./dist/main.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/main.d.ts",
-      "import": "./dist/unique-url.js",
-      "require": "./dist/unique-url.umd.cjs"
+    "name": "unique-url",
+    "version": "0.0.0",
+    "type": "module",
+    "main": "./dist/unique-url.umd.cjs",
+    "module": "./dist/unique-url.js",
+    "types": "./dist/main.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/main.d.ts",
+            "import": "./dist/unique-url.js",
+            "require": "./dist/unique-url.umd.cjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "^4.0.8",
+        "typescript": "~5.9.3",
+        "vite": "^7.2.2",
+        "vitest": "^4.0.8"
     }
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@vitest/coverage-v8": "^4.0.8",
-    "typescript": "~5.9.3",
-    "vite": "^7.2.2",
-    "vitest": "^4.0.8"
-  }
 }

@@ -8,6 +8,10 @@ A TypeScript reference implementation for generating unique, deterministic URLs 
 (namespace-based) to ensure that the same input text always produces the same URL, making it ideal for creating stable
 identifiers for mentions or other text-based entities.
 
+## The reference code
+
+You can find the reference code in [src/main.ts](./src/main.ts).
+
 ## Usage
 
 ```typescript

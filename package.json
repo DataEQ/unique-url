@@ -1,11 +1,18 @@
 {
-    "name": "unique-url",
+    "name": "@dataeq/unique-url",
     "version": "0.0.0",
     "license": "MIT",
     "type": "module",
     "main": "./dist/unique-url.umd.cjs",
     "module": "./dist/unique-url.js",
     "types": "./dist/main.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DataEQ/unique-url.git"
+    },
+    "publishConfig": {
+        "@dataeq:registry": "https://npm.pkg.github.com"
+    },
     "exports": {
         ".": {
             "types": "./dist/main.d.ts",

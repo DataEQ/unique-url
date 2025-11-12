@@ -14,6 +14,14 @@ You can find the reference code in [src/main.ts](./src/main.ts).
 
 ## Usage
 
+Installing the package:
+
+```shell
+pnpm add github:@dataeq/unique-url
+```
+
+Running it:
+
 ```typescript
 import {mention_v5_from_text} from 'unique-url';
 
